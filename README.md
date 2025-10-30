@@ -28,7 +28,8 @@ Performed using Jupyter Notebook (`UnionBudget.ipynb`):
 
 -Handled missing values and filtered invalid records.
 -Exported the cleaned dataset as unionbudget_cleaned.csv
-## [ Notebook:] (UnionBudget.ipynb)
+ Notebook: Python UnionBudget.ipynb
+
 
 ## Data Analysis (SQL)
 **Tools:** PostgreSQL
