@@ -28,7 +28,7 @@ Performed using Jupyter Notebook (`UnionBudget.ipynb`):
 
 -Handled missing values and filtered invalid records.
 -Exported the cleaned dataset as unionbudget_cleaned.csv
- Notebook: Python UnionBudget.ipynb
+ Notebook: Python/UnionBudget.ipynb
 
 
 ## Data Analysis (SQL)
@@ -53,12 +53,12 @@ FROM union_budget_schemes
 GROUP BY scheme, ministry
 HAVING SUM(Growth_Percent) > 0
 ORDER BY Growth_percentage DESC;
-## SQL Script: unionBudgetProject.sql
+**SQL Script:**SQL/unionBudgetProject.sql
 
 ## Visualization (Power BI)
 
 **Tool:** Power BI Desktop
-**File:** Union_Budget_2023-24.pbix
+**File:** Dashboard/Union_budget_project.pbix
 
 | KPI              | Value     |
 | ---------------- | --------- |
@@ -75,8 +75,8 @@ ORDER BY Growth_percentage DESC;
 -Growth Category Distribution (Positive, Negative, Zero)
 -Sector-wise Spending Trends
 
-## **Dashboard Report (PDF):**union_budget_project.pdf
-
+**Dashboard Report (PDF):**union_budget_project.pdf
+**Images:**Images/UB1.png
  ## Insights & Findings
 
 -Road Transport & Highways and Railways received the largest 2023 allocations.
