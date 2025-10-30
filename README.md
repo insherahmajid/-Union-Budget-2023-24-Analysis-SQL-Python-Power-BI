@@ -111,6 +111,6 @@ Insherah Majid
 📍 Srinagar, Kashmir
 
 🔗 LinkedIn
- (www.linkedin.com/in/insherah-majid-14649631)
+ (www.linkedin.com/in/insherah-majid-146496317)
 📧 insherahmajid81@gmail.com
  
