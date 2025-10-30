@@ -27,9 +27,9 @@ Performed using Jupyter Notebook (`UnionBudget.ipynb`):
   budget['Growth_percent'] = ((budget['BE_2023'] - budget['BE_2022']) / budget['BE_2022']) * 100
 
 -Handled missing values and filtered invalid records.
--Exported the cleaned dataset as unionbudget_cleaned.csv
- Notebook: Python
-Dashboard Report (PDF): View PDF Report
+-Exported the cleaned dataset as [Unionbudget_cleaned.csv](Dataset/Unionbudget_cleaned.csv)
+**Python Notebook: **[UnionBudget.ipynb](Python/UnionBudget.ipynb)
+
 
 
 ## Data Analysis (SQL)
@@ -54,12 +54,12 @@ FROM union_budget_schemes
 GROUP BY scheme, ministry
 HAVING SUM(Growth_Percent) > 0
 ORDER BY Growth_percentage DESC;
-**SQL Script:**SQL/unionBudgetProject.sql
+**SQL Script:**[unionBudgetProject.sql](SQL/unionBudgetProject.sql)
 
 ## Visualization (Power BI)
 
 **Tool:** Power BI Desktop
-Power BI Dashboard File: Download .pbix
+**Power bi file;**[union_budget_project.pbix](Dashboard/union_budget_project.pbix)
 
 | KPI              | Value     |
 | ---------------- | --------- |
@@ -76,8 +76,16 @@ Power BI Dashboard File: Download .pbix
 -Growth Category Distribution (Positive, Negative, Zero)
 -Sector-wise Spending Trends
 
-**Dashboard Report (PDF):**union_budget_project.pdf
-**Images:**Images/UB1.png
+**Dashboard Report (PDF):**[union_budget_project.pdf](Report/union_budget_project.pdf)
+**Dashboard preview:**<p align="center">
+<img src="Images/UB1.png"
+</p>
+<p align="center">
+<img src="Images/UB2.png"
+</p>
+  <p align="center">
+<img src="Images/UB3.png"
+</p>
  ## Insights & Findings
 
 -Road Transport & Highways and Railways received the largest 2023 allocations.
