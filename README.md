@@ -28,7 +28,8 @@ Performed using Jupyter Notebook (`UnionBudget.ipynb`):
 
 -Handled missing values and filtered invalid records.
 -Exported the cleaned dataset as unionbudget_cleaned.csv
- Notebook: Python/UnionBudget.ipynb
+ Notebook: Python
+Dashboard Report (PDF): View PDF Report
 
 
 ## Data Analysis (SQL)
@@ -58,7 +59,7 @@ ORDER BY Growth_percentage DESC;
 ## Visualization (Power BI)
 
 **Tool:** Power BI Desktop
-**File:** Dashboard/Union_budget_project.pbix
+Power BI Dashboard File: Download .pbix
 
 | KPI              | Value     |
 | ---------------- | --------- |
