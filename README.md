@@ -77,7 +77,8 @@ ORDER BY Growth_percentage DESC;
 -Sector-wise Spending Trends
 
 **Dashboard Report (PDF):**[union_budget_project.pdf](Report/union_budget_project.pdf)
-**Dashboard preview:**<p align="center">
+**Dashboard preview:**
+<p align="center">
 <img src="Images/UB1.png"
 </p>
 <p align="center">
